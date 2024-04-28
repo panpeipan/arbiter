@@ -1,0 +1,20 @@
+{
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        4
+    ],
+    "pp_rtl": [
+        "pp_rtl",
+        "ZFE9z",
+        "module",
+        2
+    ],
+    "tb_pprr_arbiter": [
+        "tb_pprr_arbiter",
+        "IdtPs",
+        "module",
+        3
+    ]
+}

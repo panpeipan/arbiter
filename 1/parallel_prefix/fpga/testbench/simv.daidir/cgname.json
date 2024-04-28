@@ -1,0 +1,14 @@
+{
+    "tb_arbiter": [
+        "tb_arbiter",
+        "EGN3p",
+        "module",
+        2
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        3
+    ]
+}

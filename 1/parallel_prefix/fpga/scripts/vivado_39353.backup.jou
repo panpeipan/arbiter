@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Nov 21 20:04:11 2023
+# Process ID: 39353
+# Current directory: /home/ICer/ic_prjs/parallel_prefix/fpga/scripts
+# Command line: vivado -mode batch -source ./run_prj.tcl
+# Log file: /home/ICer/ic_prjs/parallel_prefix/fpga/scripts/vivado.log
+# Journal file: /home/ICer/ic_prjs/parallel_prefix/fpga/scripts/vivado.jou
+#-----------------------------------------------------------
+source ./run_prj.tcl

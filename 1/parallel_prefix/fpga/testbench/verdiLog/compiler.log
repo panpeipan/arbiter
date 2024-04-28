@@ -1,0 +1,11 @@
+*design* DebussyLib (btIdent Verdi_O-2018.09-SP2)
+Command arguments:
+    +define+verilog
+    -f filelist.f
+        ../rtl/ppa.v
+        ../testbench/tb_arbiter.v
+
+Highest level modules:
+tb_arbiter
+
+Total	0 error(s),   0 warning(s)

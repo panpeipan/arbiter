@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ICer/ic_prjs/parallel_prefix/fpga/rtl
+vpp
+!s110 1700567954
+!i10b 1
+!s100 zSRkVHJMdlFc6THo9EQ[l0
+ImlNVM6`Jc]oS;g6<[E]z23
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1700567954
+8/tmp/vYyo7Oc/977/ppa.v
+F/tmp/vYyo7Oc/977/ppa.v
+L0 121
+Z2 OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1700567954.000000
+!s107 /tmp/vYyo7Oc/977/ppa.v|
+!s90 -quiet|-lint|/tmp/vYyo7Oc/977/ppa.v|
+!i113 0
+Z3 o-quiet -lint -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z4 tCvgOpt 0
+vppa
+!s110 1700632234
+!i10b 1
+!s100 b?NYbom7AzP9a]fBRRgH>2
+I2:cCg8cd2kd3n0WiiD0KC3
+R1
+R0
+w1700632233
+8/tmp/vrB2YU5/623/ppa.v
+F/tmp/vrB2YU5/623/ppa.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1700632234.000000
+!s107 /tmp/vrB2YU5/623/ppa.v|
+!s90 -quiet|-lint|/tmp/vrB2YU5/623/ppa.v|
+!i113 0
+R3
+R4

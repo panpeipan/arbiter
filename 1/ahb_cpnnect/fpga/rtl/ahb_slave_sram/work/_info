@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ICer/ic_prjs/ahb_cpnnect/fpga/rtl/ahb_slave_sram
+vahb_slave_if
+!s110 1700729564
+!i10b 1
+!s100 Kdkgz_DPM37D1[ZH=h:dl1
+IV@ZaZn]AEEZGKhYK1HE==0
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1700729564
+8/tmp/v7HsN0D/95/ahb_slave_if.v
+F/tmp/v7HsN0D/95/ahb_slave_if.v
+L0 26
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1700729564.000000
+!s107 /tmp/v7HsN0D/95/ahb_slave_if.v|
+!s90 -quiet|-lint|/tmp/v7HsN0D/95/ahb_slave_if.v|
+!i113 0
+o-quiet -lint -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0

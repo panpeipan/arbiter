@@ -1,0 +1,56 @@
+Command: vcs -full64 -R +v2k -sverilog -debug_access+all -timescale=1ns/10ps -f filelist.f \
+-l ./output.log -fsdb +define+FSDB
+                         Chronologic VCS (TM)
+        Version O-2018.09-1_Full64 -- Tue Nov 21 20:53:23 2023
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file '../rtl/ppa.v'
+Parsing design file '../testbench/tb_arbiter.v'
+Top Level Modules:
+       tb_arbiter
+TimeScale is 1 ns / 10 ps
+Starting vcs inline pass...
+1 module and 0 UDP read.
+recompiling module tb_arbiter
+make[1]: Entering directory '/home/ICer/ic_prjs/parallel_prefix/fpga/testbench/csrc' \
+
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv    -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
+-Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -rdynamic  -Wl,-rpath=/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib \
+-L/home/synopsys/vcs-mx/O-2018.09-1/linux64/lib   objs/amcQw_d.o   _87446_archive_1.so \
+SIM_l.o       rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o \
+-lzerosoft_rt_stubs -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile \
+-luclinative /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcs_tls.o   -Wl,-whole-archive \
+-lvcsucli -Wl,-no-whole-archive        _vcs_pli_stub_.o   /home/synopsys/vcs-mx/O-2018.09-1/linux64/lib/vcs_save_restore_new.o \
+/home/synopsys/verdi/Verdi_O-2018.09-SP2/share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm \
+-lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory '/home/ICer/ic_prjs/parallel_prefix/fpga/testbench/csrc' \
+
+Command: /home/ICer/ic_prjs/parallel_prefix/fpga/testbench/./simv +v2k -a ./output.log +define+FSDB
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-1_Full64; Runtime version O-2018.09-1_Full64;  Nov 21 20:53 2023
+*Verdi* Loading libsscore_vcs201809.so
+FSDB Dumper for VCS, Release Verdi_O-2018.09-SP2, Linux x86_64/64bit, 02/21/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* : Create FSDB file './tb_top.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +all and +mda dumping.
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the MDAs, layer (0).
+*Verdi* : Enable +mda and +packedmda dumping.
+*Verdi* : End of traversing the MDAs.
+$finish called from file "../testbench/tb_arbiter.v", line 37.
+$finish at simulation time                 8000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 80000 ps
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Tue Nov 21 20:53:24 2023
+CPU time: .156 seconds to compile + .139 seconds to elab + .182 seconds to link + .200 seconds in simulation

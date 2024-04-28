@@ -1,0 +1,20 @@
+Command: vcs -full64 -R +v2k -sverilog -debug_access+all -timescale=1ns/10ps -f filelist.f \
+-l ./output.log -fsdb +define+FSDB
+                         Chronologic VCS (TM)
+        Version O-2018.09-1_Full64 -- Tue Nov 21 20:04:57 2023
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Error-[NSFG] No source file given
+  No Verilog source file is found from VCS command line and file list 
+  specified with compilation option '-f'.
+  Please check file list and note '//' is used for comment.
+  For further analysis, please turn on +lint=DSFIF, which will show locations 
+  of '//' encountered.
+
+CPU time: .058 seconds to compile
